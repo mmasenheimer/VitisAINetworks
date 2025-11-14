@@ -1,0 +1,26 @@
+# Build artifacts
+build/
+_ide/
+*.o
+*.elf
+*.log
+
+# Compilation outputs
+aiecompiler.cfg
+compile_commands.json
+vitis-comp.json
+
+# CMake generated files
+CMakeLists.txt
+CMakeCache.txt
+CMakeFiles/
+
+# Data files (optional - remove if you want to include them)
+data/
+
+# Vitis/Vivado temporary files
+*.jou
+*.str
+*.log
+work/
+.Xil/
